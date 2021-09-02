@@ -12,7 +12,7 @@ role: Masters Student of Computer Science at UTA
 # Organizations/Affiliations to show in About widget
 organizations:
 - name: University of Texas at Arlington
-  url: https://www.stanford.edu/
+  url: https://www.uta.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My interests are in the fields of information security and secure systems.
