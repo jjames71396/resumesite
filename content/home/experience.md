@@ -25,7 +25,7 @@ experience:
   - title: Software Engineer
     company: Lennox International
     company_url: 'https://www.lennoxinternational.com/'
-    company_logo: 
+    company_logo: org-x
     location: Carrollton, Texas
     date_start: '2018-12-01'
     date_end: '2020-08-01'
@@ -38,7 +38,7 @@ experience:
   - title: Control Algorithms/Data Science Co-Op
     company: Ingersoll Rand Inc. (Trane)
     company_url: 'https://www.trane.com/index.html'
-    company_logo: 
+    company_logo: org-x
     location: Tyler, Texas
     date_start: '2017-05-01'
     date_end: '2017-12-31'
@@ -47,7 +47,6 @@ experience:
 		Developed Single-Stage HVAC runtime prediction algorithm for cooling season 
 		Created automated thermostat testing framework using Z-Wave protocol 
 		Improved resolution of temperature and humidity sensing by 100% 
-
 
 design:
   columns: '2'
