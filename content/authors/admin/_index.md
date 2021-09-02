@@ -60,8 +60,6 @@ highlight_name: false
 
 Jordan James is a masters student of computer science at the University of Texas at Arlington. His primary field of study is information security with a secondary study in machine learning and data mining.
 
-<a href="filename='static/uploads/Jordan_James_Resume.pdf" download="resume">
+<a href="filename='uploads/Jordan_James_Resume.pdf" download="resume">
 Download my resume
 </a>
-
-#{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Jordan_James_Resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
