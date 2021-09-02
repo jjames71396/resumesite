@@ -29,9 +29,7 @@ experience:
     location: Carrollton, Texas
     date_start: '2018-12-01'
     date_end: '2020-08-01'
-    description: |2-
-        Maintained Alexa application and deployed new Alexa applications
-		Full stack mobile development on thermostat application
+    description: Maintained Alexa application and deployed new Alexa applications. Full stack mobile development on thermostat application
  
 
         
@@ -42,11 +40,7 @@ experience:
     location: Tyler, Texas
     date_start: '2017-05-01'
     date_end: '2017-12-31'
-    description: |2-
-        Developed correction algorithm for temperature sensing under various anomalies 
-		Developed Single-Stage HVAC runtime prediction algorithm for cooling season 
-		Created automated thermostat testing framework using Z-Wave protocol 
-		Improved resolution of temperature and humidity sensing by 100% 
+    description: Developed correction algorithm for temperature sensing under various anomalies. Developed Single-Stage HVAC runtime prediction algorithm for cooling season. Created automated thermostat testing framework using Z-Wave protocol. Improved resolution of temperature and humidity sensing by 100% 
 
 design:
   columns: '2'
