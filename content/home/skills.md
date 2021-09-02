@@ -16,10 +16,14 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: C, Python 2, NumPy, Pandas, SciPy, MATLAB, Java, C++, JavaScript, SQL, Bash, GIT, LaTex, MIPS, Verilog, Visual Studio, Microsoft Office, Tensorflow, TFLearn, Keras, SKLearn, Python 3, Flask, C#, Z-Wave Protocol, HTML, CSS
+- description: C, Python 2, NumPy, Pandas, SciPy, MATLAB, Java, C++, JavaScript, SQL, Bash, GIT, LaTex, MIPS, Verilog, Visual Studio, Microsoft Office
   icon: c-project
   icon_pack: fab
-  name: Skills
+  name: Proficient
+- description: Tensorflow, TFLearn, Keras, SKLearn, Python 3, Flask, C#, Z-Wave Protocol, HTML, CSS 
+  icon: c-project
+  icon_pack: fas
+  name: Familiar
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
