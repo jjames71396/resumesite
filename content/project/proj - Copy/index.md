@@ -1,5 +1,5 @@
 ---
-title: NES with Xbox Kinect 
+title: Connected Mancala with Minimax AI  
 summary: An example of using the in-built project page.
 tags:
 - Deep Learning

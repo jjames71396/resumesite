@@ -1,5 +1,5 @@
 ---
-title: NES with Xbox Kinect 
+title: Pipelined Processor with Hazard Detection for MIPS Assembly Architecture 
 summary: An example of using the in-built project page.
 tags:
 - Deep Learning

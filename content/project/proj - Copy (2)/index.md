@@ -1,5 +1,5 @@
 ---
-title: NES with Xbox Kinect 
+title: Custom Bash-style Shell  
 summary: An example of using the in-built project page.
 tags:
 - Deep Learning
