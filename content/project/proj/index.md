@@ -26,7 +26,7 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt"></div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span> <span class="c1"># linear algebra</span>
@@ -37,7 +37,6 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 </div>
 </div>
 
-</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -56,6 +55,7 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 </pre></div>
 
     </div>
+</div>
 </div>
 
 <div class="output_wrapper">
