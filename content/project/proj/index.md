@@ -55,7 +55,6 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 <span class="n">train_data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
