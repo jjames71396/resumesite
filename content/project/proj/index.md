@@ -2,7 +2,7 @@
 title: Kaggle Titanic Survival Prediction  
 summary: An example of using the in-built project page.
 tags:
-- Deep Learning
+- Machine Learning
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
@@ -48,7 +48,7 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt"></div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;train.csv&quot;</span><span class="p">)</span>
@@ -56,7 +56,6 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 </pre></div>
 
     </div>
-</div>
 </div>
 
 <div class="output_wrapper">
