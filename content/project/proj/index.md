@@ -33,7 +33,6 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span> <span class="c1"># data processing, CSV file I/O (e.g. pd.read_csv)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -196,7 +195,6 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 <span class="n">test_data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -356,7 +354,6 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">% o</span><span class="s2">f women who survived:&quot;</span><span class="p">,</span> <span class="n">rate_women</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -389,7 +386,6 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">% o</span><span class="s2">f men who survived:&quot;</span><span class="p">,</span> <span class="n">rate_men</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -443,7 +439,6 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 <span class="c1">#All code above this line is referenced from the tutorial at https://www.kaggle.com/alexisbcook/titanic-tutorial/notebook</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -510,7 +505,6 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 <span class="nb">print</span><span class="p">(</span><span class="n">grid_search</span><span class="o">.</span><span class="n">best_params_</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -554,7 +548,6 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Your submission was successfully saved!&quot;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -603,7 +596,6 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Best Score:&quot;</span><span class="p">,</span> <span class="n">grid_search</span><span class="o">.</span><span class="n">best_score_</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -648,7 +640,6 @@ Best Score: 0.791256041679744
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Your submission was successfully saved!&quot;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
