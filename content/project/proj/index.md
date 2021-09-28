@@ -37,8 +37,9 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 </div>
 </div>
 
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The data is given by Kaggle in two seperate csv files. One is the training data labelled "train.csv" and the other is the testing data labelled "test.csv". The two files are very similar but the key difference is that the training data has the attribute Survived whereas the test data does not. This attribute is the ground truth value and is only provided for the training data. This is the attribute that we will be trying to predict for the test data and the resulting predictions will be verified by Kaggle upon submission. </p>
 <p>To begin we read both of the csv files in and display the first 5 rows of each to get an idea of what the data looks like. </p>
@@ -64,7 +65,6 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -190,7 +190,7 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt"></div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">test_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;test.csv&quot;</span><span class="p">)</span>
@@ -207,7 +207,6 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
 
 
 
@@ -349,7 +348,7 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt"></div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">women</span> <span class="o">=</span> <span class="n">train_data</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">train_data</span><span class="o">.</span><span class="n">Sex</span> <span class="o">==</span> <span class="s1">&#39;female&#39;</span><span class="p">][</span><span class="s2">&quot;Survived&quot;</span><span class="p">]</span>
@@ -368,7 +367,6 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 
 <div class="output_area">
 
-    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -383,7 +381,7 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt"></div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">men</span> <span class="o">=</span> <span class="n">train_data</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">train_data</span><span class="o">.</span><span class="n">Sex</span> <span class="o">==</span> <span class="s1">&#39;male&#39;</span><span class="p">][</span><span class="s2">&quot;Survived&quot;</span><span class="p">]</span>
@@ -402,7 +400,6 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 
 <div class="output_area">
 
-    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -425,7 +422,7 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt"></div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.ensemble</span> <span class="k">import</span> <span class="n">RandomForestClassifier</span>
@@ -457,7 +454,6 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 
 <div class="output_area">
 
-    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -496,7 +492,7 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt"></div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="k">import</span> <span class="n">GridSearchCV</span>
@@ -525,7 +521,6 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 
 <div class="output_area">
 
-    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -547,7 +542,7 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt"></div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#This code cell is referenced from the tutorial at https://www.kaggle.com/alexisbcook/titanic-tutorial/notebook</span>
@@ -570,7 +565,6 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 
 <div class="output_area">
 
-    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -593,7 +587,7 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt"></div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.neighbors</span> <span class="k">import</span> <span class="n">KNeighborsClassifier</span>
@@ -620,7 +614,6 @@ external_link: "https://jordanjames.netlify.app/project/proj/titanic_predictions
 
 <div class="output_area">
 
-    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -643,7 +636,7 @@ Best Score: 0.791256041679744
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt"></div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">knn_classifier</span> <span class="o">=</span> <span class="n">KNeighborsClassifier</span><span class="p">(</span><span class="n">n_neighbors</span><span class="o">=</span><span class="mi">25</span><span class="p">)</span>
@@ -666,7 +659,6 @@ Best Score: 0.791256041679744
 
 <div class="output_area">
 
-    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
