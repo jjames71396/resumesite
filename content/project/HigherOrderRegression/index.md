@@ -203,8 +203,6 @@ external_link: ""
       <span class="bp">self</span><span class="o">.</span><span class="n">total_loss</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">total_loss</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">train_x</span><span class="p">))</span>
       <span class="c1">#print(&quot;training progress: &quot;, epoch, self.total_loss.data[0])</span>
 </pre></div>
-
-    </div>
 </div>
 </div>
 
